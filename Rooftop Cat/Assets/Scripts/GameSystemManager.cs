@@ -7,8 +7,6 @@ public class GameSystemManager : MonoBehaviour
     public SceneManager sceneManager;
     public UIWindowDisplayManager uiWindowDisplayManager;
 
-
-
     public void Start()
     {
         Initialize();
@@ -32,6 +30,21 @@ public class GameSystemManager : MonoBehaviour
         yield return new WaitForSeconds(time);
         SceneManager.LoadScene("MenuScene", LoadSceneMode.Single);
     }
+
+
+
+
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+    }
+
+
+
+
+
+
+
 
 
 }
