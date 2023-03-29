@@ -14,14 +14,14 @@ public class CameraController : MonoBehaviour
     public void Start()
     {
         var camera = gameObject.GetComponent<Camera>();
-        parallaxScroll.Initialize(camera);
-        parallaxScroll.SetParallaxScrollLayersSpeed();
+        //parallaxScroll.Initialize(camera);
+        //parallaxScroll.SetParallaxScrollLayersSpeed();
     }
 
     public void Update()
     {
         ScrollCamera();
-        parallaxScroll.RunParallaxScrollEffect();
+        //parallaxScroll.RunParallaxScrollEffect();
     }
 
     void ScrollCamera()

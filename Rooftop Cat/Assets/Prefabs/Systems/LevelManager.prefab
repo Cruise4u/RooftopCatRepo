@@ -45,11 +45,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buildingsParentObject: {fileID: 0}
   baseBuildingBlock: {fileID: 4985994432585178024, guid: c7b78e053590f574db549ff2de940759, type: 3}
-  buildingWidthMin: 2.5
-  buildingWidthMax: 15
-  buildingHeightMin: 2.5
-  buildingHeightMax: 30
-  gapMin: 2.5
-  gapMax: 5
+  collectionSize: 0
   initialGap: 18.5
   buildingYPosition: -2.36
+  heightBase: 0
+  heightVariation: 0
+  buildingGOList: []
+  buildingIDList: []
+  buildingTypeArray: 
+  buildingHeightArray: []
+  directionArray: []
