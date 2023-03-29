@@ -1319,6 +1319,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 140969177}
     m_Modifications:
+    - target: {fileID: 692911043075164281, guid: 70fffee9ed2151c4ba91430135fe6232, type: 3}
+      propertyPath: previousBuildingConstructed
+      value: 
+      objectReference: {fileID: 1784558630}
     - target: {fileID: 4667434396202774892, guid: 70fffee9ed2151c4ba91430135fe6232, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1366,6 +1370,10 @@ PrefabInstance:
     - target: {fileID: 4667434396202774893, guid: 70fffee9ed2151c4ba91430135fe6232, type: 3}
       propertyPath: m_Name
       value: LevelManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842630776773476114, guid: 70fffee9ed2151c4ba91430135fe6232, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8842630776773476114, guid: 70fffee9ed2151c4ba91430135fe6232, type: 3}
       propertyPath: heightBase

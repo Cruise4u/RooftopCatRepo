@@ -121,7 +121,7 @@ public class BuildingGenerator : MonoBehaviour
                         hasReachedLimit = false;
                     }
                 }
-                else if (currentDirection == "Down" && heightCounter == -2)
+                else if (currentDirection == "Down")
                 {
                     heightCounter--;
                     if (heightCounter == -2)
@@ -134,10 +134,13 @@ public class BuildingGenerator : MonoBehaviour
                     }
                 }
             }
+            Debug.Log(currentDirection);
+            Debug.Log(heightCounter);
+
             directionArray[i] = currentDirection;
             buildingHeightArray[i] = (heightCounter * heightVariation) + heightBase ;
-            Debug.Log("Direction: " +  directionArray[i]);
-            Debug.Log("Height: " +  buildingHeightArray[i]);
+            //Debug.Log("Direction: " +  directionArray[i]);
+            //Debug.Log("Height: " +  buildingHeightArray[i]);
         }
     }
 

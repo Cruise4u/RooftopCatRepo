@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 6069271642121550431}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
   m_LocalPosition: {x: -56.16, y: 2.96, z: 18.489689}
-  m_LocalScale: {x: 2.5, y: 9.5, z: 1}
+  m_LocalScale: {x: 2.5, y: 8.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -144,5 +144,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de3daeb1f3c2b344b8b060e0b6f11e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  height: 9.5
+  height: 8.5
   buildingType: 0

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4667434396202774892}
   - component: {fileID: 8842630776773476114}
+  - component: {fileID: 692911043075164281}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -44,14 +45,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buildingsParentObject: {fileID: 0}
-  baseBuildingBlock: {fileID: 4985994432585178024, guid: c7b78e053590f574db549ff2de940759, type: 3}
+  previousBuildingConstructed: {fileID: 0}
   collectionSize: 0
   initialGap: 18.5
   buildingYPosition: -2.36
   heightBase: 0
   heightVariation: 0
   buildingGOList: []
-  buildingIDList: []
-  buildingTypeArray: 
   buildingHeightArray: []
   directionArray: []
+--- !u!114 &692911043075164281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4667434396202774893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78502dfafbe9bb4ba1a8a9f52ac0465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingsParentObject: {fileID: 0}
+  previousBuildingConstructed: {fileID: 0}
+  collectionSize: 10
+  initialGap: 0
+  buildingYPosition: 0
+  heightBase: 4
+  heightVariation: 1.5
+  buildingGOList:
+  - {fileID: 2532883014915514584, guid: fcc4605511f9a7d43bfba0848bb0a8a0, type: 3}
+  - {fileID: 5344934012840418178, guid: 0b5b25f03d20adc40be51276e3a04ca7, type: 3}
+  - {fileID: 6749738926036805635, guid: f9479bb0ccf79774583bba7f2d8393e5, type: 3}
+  - {fileID: 1513400105679913511, guid: 2e6e1aad6815c224e9a83e2ff2358e70, type: 3}
+  - {fileID: 6069271642121550431, guid: 931108b4a69a0ba4dbedbd7ca55ce435, type: 3}
