@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class BuildingGeneratorChatGPT : MonoBehaviour
 {
+
+
     public GameObject buildingsParentObject;
 
     public GameObject previousBuildingConstructed;
@@ -33,14 +35,13 @@ public class BuildingGeneratorChatGPT : MonoBehaviour
 
 
 
-
-
-
     private void Awake()
     {
         buildingSpecsArray = new BuildingSpecs[collectionSize];
         directionArray = new string[collectionSize];
         buildingHeightArray = new float[collectionSize];
+        GenerateBuildingDirection();
+        GenerateBuildingSection();
     }
 
 
@@ -134,9 +135,9 @@ public class BuildingGeneratorChatGPT : MonoBehaviour
                 currentType = (BuildingType)Random.Range(0, 3);
                 gap = Random.Range(1, 3) + 1;
             }
-
-            buildingSpecsArray[i] = new BuildingSpecs(buildingHeightArray[i], 5, currentType);
-            CreateBuilding(buildingSpecsArray[i], previousBuildingConstructed, 5);
+            currentType = BuildingType.Basic;
+            buildingSpecsArray[i] = new BuildingSpecs(buildingHeightArray[i], 3.5f, currentType);
+            CreateBuilding(buildingSpecsArray[i], previousBuildingConstructed, 3.5f);
         }
     }
 

@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
     public void Update()
     {
         MoveContinously();
-        //CheckIfIsGrounded();
+        CheckIfIsGrounded();
     }
     public void MoveContinously()
     {

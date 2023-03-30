@@ -29,7 +29,7 @@ public class CameraController : MonoBehaviour
         float cameraHeight = Mathf.Clamp(playerTransform.position.y,-6.0f,4.0f);
         if (playerTransform.position.y > transform.position.y)
         {
-            transform.position = new Vector3(transform.position.x, cameraHeight, transform.position.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         }
         transform.position += new Vector3(scrollSpeed * Time.deltaTime, 0f, 0f);
         if (transform.position.x > playerTransform.position.x)

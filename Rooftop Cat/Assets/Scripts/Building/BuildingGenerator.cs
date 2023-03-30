@@ -160,24 +160,24 @@ public class BuildingGenerator : MonoBehaviour
                     randomGap = Random.Range(1, 4);
                     gap = randomGap + 1;
 
-                    //switch (randomBuildingType)
-                    //{
-                    //    case 0:
-                    //        currentType = BuildingType.Basic;
-                    //        break;
-                    //    case 1:
-                    //        currentType = BuildingType.AllSlope;
-                    //        break;
-                    //    case 2:
-                    //        currentType = BuildingType.NegativeSlope;
-                    //        break;
-                    //    case 3:
-                    //        currentType = BuildingType.PositiveSlope;
-                    //        break;
-                    //    case 4:
-                    //        currentType = BuildingType.Corridor;
-                    //        break;
-                    //}
+                    switch (randomBuildingType)
+                    {
+                        case 0:
+                            currentType = BuildingType.Basic;
+                            break;
+                        case 1:
+                            currentType = BuildingType.AllSlope;
+                            break;
+                        case 2:
+                            currentType = BuildingType.NegativeSlope;
+                            break;
+                        case 3:
+                            currentType = BuildingType.PositiveSlope;
+                            break;
+                        case 4:
+                            currentType = BuildingType.Corridor;
+                            break;
+                    }
                 }
                 else
                 {
