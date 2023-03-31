@@ -610,7 +610,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxScroll: {fileID: 0}
   playerTransform: {fileID: 6113735449158459484}
-  scrollSpeed: 3.5
+  scrollSpeed: 5
   cameraOffset: 0
 --- !u!20 &519420031
 Camera:
@@ -1213,7 +1213,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1989472919, guid: 620a72e3f79822642b2bc3514daee5c1, type: 3}
       propertyPath: moveSpeed
-      value: 3.5
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1989472919, guid: 620a72e3f79822642b2bc3514daee5c1, type: 3}
       propertyPath: groundCollisionController
